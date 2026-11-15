@@ -81,11 +81,6 @@ Include what you did, what happened, single player or multiplayer, and your log:
 `LogSML` and any `Error`/`Fatal`), plus `Toolbelt.Status` output. For more detail, launch with
 `-LogCmds="LogStashysToolbelt Verbose"`.
 
-Logs contain personal data (player names, IDs, IP addresses). `redact_log.py` in this
-repository removes it before you share a log:
-`python3 redact_log.py FactoryGame.log --name <your player name>` → `FactoryGame.redacted.log`.
-Skim the result before posting.
-
 ## Building from source
 
 A plain C++ mod (no assets) for SML 3.12. 1.2.2 was compiled against SML `master` headers at game
