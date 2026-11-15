@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.2.2",
+	"SemVersion": "1.2.2",
+	"GameVersion": ">=517554",
+	"FriendlyName": "Stashy's Toolbelt",
+	"Description": "Build gun quality-of-life: zoop as the default build mode; stackable poles remember their last height; a ghost belt/pipe preview to the last pole you built; new poles, belts and pipes inherit the colour of what they're built from; power lines dragged from a building end in a Mk2 pole. Every feature can be toggled per player in Mod Settings.",
+	"Category": "Modding",
+	"CreatedBy": "Stashy",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "StashysToolbelt",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	]
+}
