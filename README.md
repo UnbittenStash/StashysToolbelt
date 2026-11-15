@@ -96,7 +96,6 @@ only the Windows client has been released and tested.
 | `StashysToolbelt-CHANGELOG.md` | version history |
 | `StashysToolbelt-SPEC.md` | design notes: how each feature works, what's still unverified |
 | `StashysToolbelt-TESTING.md` | in-game test procedure |
-| `redact_log.py` | removes personal data from a game log before sharing |
 
 ## License
 
